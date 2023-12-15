@@ -1,0 +1,64 @@
+
+
+body {
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: linear-gradient(120deg, rgba(222,201,47,   1) 31%, rgba(252,95,0,1) 100%);
+
+
+}
+  
+
+
+input {
+ /* TODO */
+  border: 1px rgb(190, 58, 5) solid;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+  background-color: rgb(244, 180, 61);
+
+}
+
+.search-container {
+  position: relative;
+  height: 100vh;
+  top: 50vh;
+  
+ 
+}
+
+
+.suggestions-menu{
+  border-radius: 5px;
+  border: 1px solid #cccc;
+  position: absolute;
+  left: 0;
+  margin-top: 0%;
+  padding:0;
+  list-style:none;
+  
+}
+
+.suggestions{
+  width: 300px;
+  padding: 3px;
+  cursor: pointer;
+  background-color: rgb(244, 180, 61);
+}
+
+
+
+.suggestions:hover {
+  background-color: rgba(242, 133, 0, .9);
+  /* TODO */
+}
+
+
+
